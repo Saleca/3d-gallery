@@ -26,7 +26,7 @@ body {
 
     display: inline-block;
     transform-style: preserve-3d;
-    perspective: 1000px;
+    perspective: calc(var(--size) * 10);
 
     view-timeline-name: --li-in-and-out-of-view;
     view-timeline-axis: inline;
