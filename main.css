@@ -34,7 +34,7 @@ body {
 }
 
 .child {
-    width: 33vw;
+    width: var(--size);
     aspect-ratio: 1;
 
     animation: linear scroll-animation both;
